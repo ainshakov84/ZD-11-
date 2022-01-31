@@ -1,0 +1,57 @@
+﻿<Window x:Class="ZD_11_DZ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZD_11_DZ"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="White">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="6,-140,116,-200">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="81*"/>
+            <ColumnDefinition Width="106*"/>
+            <ColumnDefinition Width="16*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-90.219"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Path Fill="Red" Stroke="Black" Margin="98,167,-260,-167" Grid.ColumnSpan="2" Grid.Column="1" >
+            <Path.Data>
+                <GeometryGroup >
+                    <EllipseGeometry RadiusX="50" RadiusY="50" Center="130,40"  />
+                    <EllipseGeometry RadiusX="30" RadiusY="30" Center="130,40"  />
+                    <RectangleGeometry Rect="92 -65 58 5" >
+                        <RectangleGeometry.Transform>
+                            <RotateTransform Angle="45"/>
+                        </RectangleGeometry.Transform>
+                    </RectangleGeometry>
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
+        <Path  Stroke="Black" Grid.Column="1" Grid.ColumnSpan="2" Margin="115,402,-33,-402" >
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure StartPoint="60,10" IsClosed="False">
+                        <BezierSegment Point1="180,30" Point2="100, 140" Point3="210 150"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Grid.Column="1" Data="M338.50987,415.24057" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="177,415,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="1"/>
+        <Path Grid.Column="2" Data="M438.54087,198.02133 C455.87644,208.85643 449.39451,220.4383 480.10387,207.78027 488.09723,204.4855 494.81867,202.58831 502.53428,199.86595 513.09355,196.14022 522.80053,198.86797 513.80759,180.7089 509.15395,171.31199 512.52462,167.84702 497.86886,164.64786 489.65087,162.85398 480.35286,164.67159 472.25682,167.74998 459.74427,172.50768 447.83761,191.77759 438.54087,198.02133 z" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="50" Margin="65,164,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="80"/>
+        <Path Grid.Column="2" Data="M436.87972,214.0151 C448.98566,215.42603 460.50138,216.49519 472.06112,218.94961 483.56161,221.39145 498.31374,220.85658 494.36922,243.03505 491.02625,261.83124 464.28925,251.60563 435.24304,223.60891" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="40" Margin="61,214,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="61"/>
+        <Path Grid.Column="1" Data="M428.79416,236.38436 C434.53439,246.71344 514.92146,333.16451 454.00869,337.28147 416.65921,339.80584 417.27854,300.6408 415.95756,245.93536" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="102" Margin="270,226,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="62"/>
+        <Path Grid.Column="1" Grid.ColumnSpan="2" Data="M401.49651,261.88021 C410.65077,279.52023 423.94226,284.00177 415.72517,306.73492 410.67179,320.71543 401.26321,338.8926 377.22148,333.78795 344.35864,326.81035 341.21545,302.11885 367.92733,253.75184" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="82" Margin="188,254,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="69"/>
+        <Path Grid.Column="1" Data="M359.92739,253.72126 C324.78717,248.07651 292.61646,282.61614 292.86243,218.26466 306.34166,218.31618 319.19741,216.07017 332.87437,215.21757" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="44" Margin="131,215,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="68"/>
+        <Path Grid.Column="1" Data="M342.62107,176.85455 C333.44918,164.33739 325.25723,151.00151 309.15586,141.52638 296.36665,134.00034 287.55294,134.35437 280.28268,160.61616 272.22109,189.7364 298.70925,189.86142 345.77824,188.0667" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="52" Margin="117,137,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="68"/>
+        <Path Grid.Column="1" Grid.ColumnSpan="2" Data="M355.46379,165.70355 C349.55011,148.52282 341.83044,132.36921 336.45351,116.03053 334.15028,109.03179 336.05527,100.82612 338.13912,93.636808 341.00065,83.764443 341.92171,77.86129 355.80626,76.104209 382.03434,72.78506 398.32131,116.6596 390.68799,159.43814" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="91" Margin="173,76,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="58"/>
+        <Path Grid.Column="1" Data="M392.30633,154.6443 C388.10465,145.65782 384.80938,137.74798 381.20426,129.00167 375.66307,115.55833 367.92075,117.00859 384.5082,101.8141 391.80888,95.126515 421.65323,52.512035 437.43624,68.416164 470.46318,101.69655 439.58181,124.05263 411.43891,172.31755" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="108" Margin="247,90,0,0" Stroke="Black" Stretch="Fill" VerticalAlignment="Top" Width="78"/>
+
+
+    </Grid>
+</Window>
